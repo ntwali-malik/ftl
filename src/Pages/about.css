@@ -1,0 +1,27 @@
+.scrolling-container {
+    display: flex;
+    overflow: hidden; /* Hide the overflowing images */
+    width: 100%; /* Adjust based on your layout */
+}
+
+.scrolling-images {
+    display: flex;
+    animation: scroll 10s linear infinite; /* Adjust duration as needed */
+}
+
+.scrolling-images img {
+    margin-right: 10px; /* Space between images */
+    width: 80px; /* Adjust image width as needed */
+    height: 80px; /* Adjust image height as needed */
+    border-radius: 0; /* Ensure no rounded corners */
+    display: block; /* Prevent inline spacing issues */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); /* Scrolls through the width of the images */
+    }
+}

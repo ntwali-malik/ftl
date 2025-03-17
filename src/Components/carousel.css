@@ -1,0 +1,73 @@
+/* Carousel container */
+.header-carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Individual carousel items */
+.header-carousel-item {
+  position: relative;
+}
+
+/* Image styling */
+.header-carousel-item img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Carousel caption styling */
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+/* Styling for the inner content of the carousel (text, buttons) */
+.carousel-caption-inner {
+  position: relative;
+  z-index: 3;
+}
+
+.carousel-caption-inner h1,
+.carousel-caption-inner p,
+.carousel-caption-inner a {
+  color: #fff;
+  z-index: 3;
+}
+
+/* Custom animations for carousel */
+.fadeInUp {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Ensure buttons are clickable and styled correctly */
+.btn {
+  z-index: 3;
+  pointer-events: auto;
+}
+
+/* Custom navigation arrows */
+.custom-prev-arrow,
+.custom-next-arrow {
+  color: #fff;
+  font-size: 2rem;
+  padding: 0 10px;
+  z-index: 4;
+  pointer-events: auto;
+}
