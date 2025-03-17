@@ -164,7 +164,7 @@ function Home() {
                 <h4 className="text-primary">Contact Us</h4>
                 <h1 className="display-4 mb-4">Get In Touch With Us</h1>
                 <p className="mb-0">
-                  Do you have questions about our services, or are you looking for more information on networking, CCTV installations, Canal+ & DStv subscriptions, internships, or short courses? We are here to help. Reach out to us for expert solutions, and we’ll respond as soon as possible. For immediate assistance, give us a call or drop us an email.
+                  Do you have questions about our services, or are you looking for more information on networking, CCTV installations, Canal+ & DStv subscriptions, internships, or short courses? We are here to help. Reach out to us for expert solutions, and we'll respond as soon as possible. For immediate assistance, give us a call or drop us an email.
                 </p>
               </div>
               <div className="d-flex align-items-center mb-4">
@@ -316,6 +316,11 @@ function Home() {
                     <div className="col-md-6 text-center text-md-start mb-md-0">
                         <span className="text-body">
                             Fabritech, <i className="fas fa-copyright text-light me-2"></i>All rights reserved 2025.
+                        </span>
+                    </div>
+                    <div className="col-md-6 text-center text-md-end mb-md-0">
+                        <span className="text-body">
+                            Developed by <a href="YOUR_PORTFOLIO_LINK" target="_blank" rel="noopener noreferrer">Maliki NTWALI</a>
                         </span>
                     </div>
                 </div>

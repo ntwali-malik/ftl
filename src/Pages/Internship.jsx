@@ -610,21 +610,26 @@ function Internship() {
             {/* <!-- Footer End --> */}
 
             {/* <!-- Copyright Start --> */}
-            <div className="container-fluid copyright py-4">
-                <div className="container">
-                    <div className="row g-4 align-items-center">
-                        <div className="col-md-6 text-center text-md-start mb-md-0">
-                            <span className="text-body">
-                                Fabritech, <i className="fas fa-copyright text-light me-2"></i>All rights reserved 2025.
-                            </span>
-                        </div>
+        <div className="container-fluid copyright py-4">
+            <div className="container">
+                <div className="row g-4 align-items-center">
+                    <div className="col-md-6 text-center text-md-start mb-md-0">
+                        <span className="text-body">
+                            Fabritech, <i className="fas fa-copyright text-light me-2"></i>All rights reserved 2025.
+                        </span>
+                    </div>
+                    <div className="col-md-6 text-center text-md-end mb-md-0">
+                        <span className="text-body">
+                            Developed by <a href="YOUR_PORTFOLIO_LINK" target="_blank" rel="noopener noreferrer">Maliki NTWALI</a>
+                        </span>
                     </div>
                 </div>
             </div>
-            <a href="#" className="btn btn-primary btn-lg-square back-to-top">
-                <i className="fa fa-arrow-up"></i>
-            </a>
-            {/* <!-- Copyright End --> */}
+        </div>
+        <a href="#" className="btn btn-primary btn-lg-square back-to-top">
+            <i className="fa fa-arrow-up"></i>
+        </a>
+        {/* <!-- Copyright End --> */}
 
             <ToastContainer
                 position="top-right"
