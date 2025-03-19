@@ -12,27 +12,23 @@ function Home() {
   // Function to show notification about internship registration
   const notify = () => {
     toast.info(
-      <div>
-        📢 Internship registration is ongoing! Check it out! 
-        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__V71hO1UQVpMRlRFMU5LQk5TU0RYWDlVOUMxM1hLQS4u" target="_blank" rel="noopener noreferrer"> Register here</a>
-      </div>,
-      {
-        position: "top-right",
-        autoClose: false,
-      }
+        <div>
+            📢 Internship registration is ongoing! Check it out! 
+            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__V71hO1UQVpMRlRFMU5LQk5TU0RYWDlVOUMxM1hLQS4u" style={{ color: 'blue', textDecoration: 'underline' }}> Register here</a>
+        </div>, 
+        {
+            position: "top-right",
+            autoClose: false, // Notification will close after 5 seconds
+        }
     );
   };
 
   // Show notification on component mount
   useEffect(() => {
-    const notificationKey = 'internshipNotificationShown';
-    const currentDate = new Date();
-    const notificationDate = localStorage.getItem(notificationKey);
-
-    // Check if the notification has been shown and if it's still valid for a month
-    if (!notificationDate || (currentDate - new Date(notificationDate)) > 30 * 24 * 60 * 60 * 1000) {
-      notify(); // Call the notify function when the component mounts
-      localStorage.setItem(notificationKey, currentDate.toISOString()); // Store the current date
+    const hasNotified = localStorage.getItem('hasNotified');
+    if (!hasNotified) {
+        notify();
+        localStorage.setItem('hasNotified', 'true');
     }
   }, []);
 
