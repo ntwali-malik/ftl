@@ -272,7 +272,7 @@ function Internship() {
                                             </div>
                                         </div>
                                         <div className="text-center mt-4">
-                                            <a href="/internship-registration" 
+                                            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__V71hO1UQVpMRlRFMU5LQk5TU0RYWDlVOUMxM1hLQS4u" 
                                                className="btn btn-primary px-4 py-2 rounded-pill">
                                                 <i className="fas fa-paper-plane me-2"></i>
                                                 Apply Now

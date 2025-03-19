@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import OwlCarousel from 'react-owl-carousel';
@@ -6,8 +8,34 @@ import CarouselComponent from '../Components/CarouselComponent ';
 import Services from '../Components/Services';
 import './home.css'
 
-
 function Home() {
+  // Function to show notification about internship registration
+  const notify = () => {
+    toast.info(
+      <div>
+        📢 Internship registration is ongoing! Check it out! 
+        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__V71hO1UQVpMRlRFMU5LQk5TU0RYWDlVOUMxM1hLQS4u" target="_blank" rel="noopener noreferrer"> Register here</a>
+      </div>,
+      {
+        position: "top-right",
+        autoClose: false,
+      }
+    );
+  };
+
+  // Show notification on component mount
+  useEffect(() => {
+    const notificationKey = 'internshipNotificationShown';
+    const currentDate = new Date();
+    const notificationDate = localStorage.getItem(notificationKey);
+
+    // Check if the notification has been shown and if it's still valid for a month
+    if (!notificationDate || (currentDate - new Date(notificationDate)) > 30 * 24 * 60 * 60 * 1000) {
+      notify(); // Call the notify function when the component mounts
+      localStorage.setItem(notificationKey, currentDate.toISOString()); // Store the current date
+    }
+  }, []);
+
   return (
     <div>
         {/* <!-- Spinner Start --> */}
@@ -330,6 +358,9 @@ function Home() {
             <i className="fa fa-arrow-up"></i>
         </a>
         {/* <!-- Copyright End --> */}
+
+        {/* Add ToastContainer for notifications */}
+        <ToastContainer />
     </div>
   )
 }
