@@ -1,13 +1,13 @@
 export const trainingData = {
     currentIntake: {
-        startDate: "March 1, 2025",
-        duration: "14 Weeks",
-        classSize: "35 Students",
+        startDate: "March 24, 2025",
+        duration: "2 Months",
+        classSize: "70+ Students",
         fee: "Contact for Details",
         status: "Enrolling Now"
     },
     nextIntake: {
-        startDate: "Febuary 4, 2025",
+        startDate: "April 4, 2025",
         duration: "16 Weeks",
         classSize: "40 Students",
         fee: "Contact for Details",

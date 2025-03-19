@@ -542,7 +542,7 @@ function Internship() {
                             <p className="mb-4">Ready to begin your professional journey? Apply now for our internship program and take the first step towards a successful career in technology.</p>
                             <div className="d-flex gap-3">
                                 <a href="/contact" className="btn btn-primary py-3 px-4">Contact Us</a>
-                                <a href="/internship-registration" className="btn btn-outline-primary py-3 px-4">Register for Internship</a>
+                                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__V71hO1UQVpMRlRFMU5LQk5TU0RYWDlVOUMxM1hLQS4u" className="btn btn-outline-primary py-3 px-4">Register for Internship</a>
                             </div>
                         </div>
                         <div className="col-lg-7">
