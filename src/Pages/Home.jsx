@@ -25,11 +25,14 @@ function Home() {
 
   // Show notification on component mount
   useEffect(() => {
-    const hasNotified = localStorage.getItem('hasNotified');
-    if (!hasNotified) {
-        notify();
-        localStorage.setItem('hasNotified', 'true');
-    }
+    // Always show the notification on component mount
+    notify();
+    // Optionally, you can set a timeout to remove the notification after a certain period
+    const timer = setTimeout(() => {
+        localStorage.removeItem('hasNotified'); // Remove the flag after a certain time
+    }, 5000); // Adjust the time as needed
+
+    return () => clearTimeout(timer); // Cleanup the timer on unmount
   }, []);
 
   return (
