@@ -1,39 +1,26 @@
-import React, { useEffect } from 'react'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import React, { useState } from 'react'
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import OwlCarousel from 'react-owl-carousel';
 import CarouselComponent from '../Components/CarouselComponent ';
 import Services from '../Components/Services';
 import './home.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Home() {
-  // Function to show notification about internship registration
+  const [hasNotified, setHasNotified] = useState(false);
+
   const notify = () => {
-    toast.info(
-        <div>
-            📢 Internship registration is ongoing! Check it out! 
-            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__V71hO1UQVpMRlRFMU5LQk5TU0RYWDlVOUMxM1hLQS4u" style={{ color: 'blue', textDecoration: 'underline' }}> Register here</a>
-        </div>, 
-        {
-            position: "top-right",
-            autoClose: false, // Notification will close after 5 seconds
-        }
-    );
+    toast("New happenings are here! Check them out!");
+    setHasNotified(true);
   };
 
-  // Show notification on component mount
-  useEffect(() => {
-    // Always show the notification on component mount
-    notify();
-    // Optionally, you can set a timeout to remove the notification after a certain period
-    const timer = setTimeout(() => {
-        localStorage.removeItem('hasNotified'); // Remove the flag after a certain time
-    }, 5000); // Adjust the time as needed
-
-    return () => clearTimeout(timer); // Cleanup the timer on unmount
-  }, []);
+  React.useEffect(() => {
+    if (!hasNotified) {
+      notify();
+    }
+  }, [hasNotified]);
 
   return (
     <div>
@@ -79,7 +66,7 @@ function Home() {
                 <nav className="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
                     <a href="index.html" className="navbar-brand p-0">
                         {/* <!-- <h1 classNameName="text-primary m-0"><i classNameName="fas fa-donate me-3"></i>Investa</h1> --> */}
-                        <img src="img/logoF.jpg.png" alt="Logo" style={{height: '40px'}} />
+                        <img src="img/F_logo.png" alt="Logo" style={{height: '40px'}} />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span className="fa fa-bars"></span>
@@ -290,7 +277,7 @@ function Home() {
                         <div className="footer-item d-flex flex-column">
                             <div className="footer-item">
                                 {/* Company logo */}
-                                <img src="img/logoF.jpg.png" alt="Company Logo" style={{ width: "150px", height: "auto" }} className="mb-4" />
+                                <img src="img/F_logo.png" alt="Company Logo" style={{ width: "150px", height: "auto" }} className="mb-4" />
                                 
                                 {/* Company description */}
                                 <p className="mb-3">
@@ -353,13 +340,23 @@ function Home() {
                 </div>
             </div>
         </div>
-        <a href="#" className="btn btn-primary btn-lg-square back-to-top">
+        <div style={{ position: 'fixed', top: '20px', right: '20px', zIndex: 9999 }}>
+          <ToastContainer 
+            position="top-right"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+          />
+          <a href="#" className="btn btn-primary btn-lg-square back-to-top">
             <i className="fa fa-arrow-up"></i>
-        </a>
+          </a>
+        </div>
         {/* <!-- Copyright End --> */}
-
-        {/* Add ToastContainer for notifications */}
-        <ToastContainer />
     </div>
   )
 }

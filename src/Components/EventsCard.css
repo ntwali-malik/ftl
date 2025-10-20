@@ -1,0 +1,39 @@
+.notification-banner {
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+    padding: 20px;
+    border: 1px solid #f5c6cb; /* Border color */
+    border-radius: 8px;
+    margin: 20px; /* Margin for spacing */
+    position: fixed; /* Fixed position */
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    width: 300px; /* Fixed width */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    z-index: 9999; /* Ensure it appears above other content */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+    opacity: 0; /* Start hidden */
+    transform: translateY(-20px); /* Start slightly above */
+}
+
+.notification-banner.show {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Move to original position */
+}
+
+.notification-header {
+    font-weight: bold; /* Bold header */
+    margin-bottom: 10px; /* Space below header */
+}
+
+.notification-content {
+    margin-top: 10px; /* Space between title and content */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .notification-banner {
+        width: 90%; /* Full width on smaller screens */
+        right: 5%; /* Adjust right position */
+    }
+} 
