@@ -704,7 +704,7 @@ function Starlink() {
                 <div className="container px-0">
                     <nav className="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
                         <a href="index.html" className="navbar-brand p-0">
-                            <img src="img/logoF.jpg.png" alt="Logo" style={{height: '40px'}} />
+                            <img src="img/F_logo.png" alt="Logo" style={{height: '40px'}} />
                         </a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                             <span className="fa fa-bars"></span>
@@ -1222,7 +1222,7 @@ function Starlink() {
                         <div className="col-md-6 col-lg-6 col-xl-3">
                             <div className="footer-item d-flex flex-column">
                                 <div className="footer-item">
-                                    <img src="img/logoF.jpg.png" alt="Company Logo" style={{ width: "150px", height: "auto" }} className="mb-4" />
+                                    <img src="img/F_logo.png" alt="Company Logo" style={{ width: "150px", height: "auto" }} className="mb-4" />
                                     <p className="mb-3">
                                         At Fabritech, we are dedicated to providing top-notch IT solutions and services. From networking to surveillance, 
                                         we ensure high standards in every project.

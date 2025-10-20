@@ -11,7 +11,7 @@ function AllCourses() {
                 <div className="container px-0">
                     <nav className="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
                         <a href="index.html" className="navbar-brand p-0">
-                            <img src="img/logoF.jpg.png" alt="Logo" style={{ height: '40px' }} />
+                            <img src="img/F_logo.png" alt="Logo" style={{ height: '40px' }} />
                         </a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                             <span className="fa fa-bars"></span>

@@ -68,7 +68,7 @@ function About() {
             <a href="/" className="navbar-brand p-0">
               {/* <!-- <h1 classNameName="text-primary m-0"><i classNameName="fas fa-donate me-3"></i>Investa</h1> --> */}
               <img
-                src="img/logoF.jpg.png"
+                src="img/F_logo.png"
                 alt="Logo"
                 style={{ height: "40px" }}
               />
@@ -1454,7 +1454,7 @@ function About() {
                 <div className="footer-item">
                   {/* Company logo */}
                   <img
-                    src="img/logoF.jpg.png"
+                    src="img/F_logo.png"
                     alt="Company Logo"
                     style={{ width: "150px", height: "auto" }}
                     className="mb-4"
