@@ -62,4 +62,5 @@ class DecoderOrderService {
     }
 }
 
-export default new DecoderOrderService(); 
+const decoderOrderService = new DecoderOrderService();
+export default decoderOrderService; 

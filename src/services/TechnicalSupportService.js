@@ -59,4 +59,5 @@ class TechnicalSupportService {
     }
 }
 
-export default new TechnicalSupportService();
+const technicalSupportService = new TechnicalSupportService();
+export default technicalSupportService;
