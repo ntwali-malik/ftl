@@ -1102,6 +1102,241 @@ function About() {
                 </p>
               </div>
             </div>
+            {/* ITM Africa */}
+            <div className="row align-items-start mb-4">
+              <div className="col-md-3">
+                <img
+                  src="img/partners/itm-africa.png"
+                  alt="ITM Africa Logo"
+                  className="img-fluid"
+                  style={{ maxWidth: "150px" }}
+                />
+              </div>
+              <div className="col-md-9">
+                <h3 className="font-weight-bold">ITM Africa</h3>
+                <h6>
+                  <b>Address: </b> Kigali, Rwanda
+                </h6>
+                <p style={{ textAlign: "justify" }}>
+                  Our company successfully provided ITM Africa with high-speed Starlink internet services.
+                  This reliable connectivity enables the team to communicate seamlessly and support
+                  daily operations across departments. The high-speed internet access improves productivity,
+                  real-time collaboration, and business communications, ensuring consistent performance
+                  during critical work. With Starlink’s consistent connectivity, ITM Africa can operate
+                  efficiently without interruption.
+                </p>
+              </div>
+            </div>
+            {/* Embassy of Algeria in Kigali */}
+            <div className="row align-items-start mb-4">
+              <div className="col-md-3">
+                <img
+                  src="img/partners/embassy-algeria.png"
+                  alt="Embassy of Algeria in Kigali Logo"
+                  className="img-fluid"
+                  style={{ maxWidth: "150px" }}
+                />
+              </div>
+              <div className="col-md-9">
+                <h3 className="font-weight-bold">Embassy of Algeria in Kigali</h3>
+                <h6>
+                  <b>Address: </b> Kigali, Rwanda
+                </h6>
+                <p style={{ textAlign: "justify" }}>
+                  Our company successfully provided the Embassy of Algeria in Kigali with high-speed
+                  Starlink internet services. This reliable connectivity supports secure communications,
+                  day‑to‑day consular operations, and coordination with partners. The high‑speed access
+                  enhances responsiveness and continuity of services, enabling efficient handling of
+                  diplomatic and administrative workloads even during peak demand.
+                </p>
+              </div>
+            </div>
+            {/* ADHI Rwanda */}
+            <div className="row align-items-start mb-4">
+              <div className="col-md-3">
+                <img
+                  src="img/partners/adhi-rwanda.png"
+                  alt="ADHI Rwanda Logo"
+                  className="img-fluid"
+                  style={{ maxWidth: "150px" }}
+                />
+              </div>
+              <div className="col-md-9">
+                <h3 className="font-weight-bold">ADHI Rwanda</h3>
+                <h6>
+                  <b>Address: </b> Kigali, Rwanda
+                </h6>
+                <p style={{ textAlign: "justify" }}>
+                  Our company successfully provided ADHI Rwanda with high-speed Starlink internet services.
+                  With reliable connectivity in place, teams can coordinate construction and operations,
+                  share updates in real time, and maintain smooth communication with stakeholders.
+                  The high-speed internet access supports planning, reporting, and on‑site workflows,
+                  ensuring consistent performance across projects.
+                </p>
+              </div>
+            </div>
+            {/* Qatar Airways */}
+            <div className="row align-items-start mb-4">
+              <div className="col-md-3">
+                <img
+                  src="img/partners/qatar-airways.png"
+                  alt="Qatar Airways Logo"
+                  className="img-fluid"
+                  style={{ maxWidth: "150px" }}
+                />
+              </div>
+              <div className="col-md-9">
+                <h3 className="font-weight-bold">Qatar Airways</h3>
+                <h6>
+                  <b>Address: </b> Kigali, Rwanda
+                </h6>
+                <p style={{ textAlign: "justify" }}>
+                  Our company successfully provided Qatar Airways in Kigali with high-speed Starlink
+                  internet services. This reliable connectivity strengthens daily customer service and
+                  operational coordination, enabling fast access to systems and communication tools.
+                  The high-speed internet access supports on‑time workflows, team collaboration, and
+                  consistent service delivery throughout the day.
+                </p>
+              </div>
+            </div>
+            {/* Kesi Investment Ltd */}
+            <div className="row align-items-start mb-4">
+              <div className="col-md-3">
+                <img
+                  src="img/partners/kesi-investment.png"
+                  alt="Kesi Investment Ltd Logo"
+                  className="img-fluid"
+                  style={{ maxWidth: "150px" }}
+                />
+              </div>
+              <div className="col-md-9">
+                <h3 className="font-weight-bold">Kesi Investment Ltd</h3>
+                <h6>
+                  <b>Address: </b> Kigali, Rwanda
+                </h6>
+                <p style={{ textAlign: "justify" }}>
+                  Our company successfully provided Kesi Investment Ltd with high-speed Starlink internet
+                  services. This reliable connectivity enables efficient office operations, swift data access,
+                  and smooth communication with clients and partners. The high-speed internet access supports
+                  their daily workflows and business communications, ensuring consistent performance.
+                </p>
+              </div>
+            </div>
+            {/* Jali Investment */}
+            <div className="row align-items-start mb-4">
+              <div className="col-md-3">
+                <img
+                  src="img/partners/jali-investment.png"
+                  alt="Jali Investment Logo"
+                  className="img-fluid"
+                  style={{ maxWidth: "150px" }}
+                />
+              </div>
+              <div className="col-md-9">
+                <h3 className="font-weight-bold">Jali Investment</h3>
+                <h6>
+                  <b>Address: </b> Kigali, Rwanda
+                </h6>
+                <p style={{ textAlign: "justify" }}>
+                  Our company successfully provided Jali Investment with high-speed Starlink internet services.
+                  This reliable connectivity improves team coordination, enables real‑time information sharing,
+                  and supports daily office operations. The high-speed internet access enhances productivity
+                  and ensures dependable communications with internal and external stakeholders.
+                </p>
+              </div>
+            </div>
+            {/* Ritco */}
+            <div className="row align-items-start mb-4">
+              <div className="col-md-3">
+                <img
+                  src="img/partners/ritco.png"
+                  alt="Ritco Logo"
+                  className="img-fluid"
+                  style={{ maxWidth: "150px" }}
+                />
+              </div>
+              <div className="col-md-9">
+                <h3 className="font-weight-bold">Ritco</h3>
+                <h6>
+                  <b>Address: </b> Kigali, Rwanda
+                </h6>
+                <p style={{ textAlign: "justify" }}>
+                  Our company successfully provided Ritco with high-speed Starlink internet services.
+                  With reliable connectivity, teams can coordinate logistics, access systems quickly,
+                  and maintain communication across operations. The high-speed internet access supports
+                  daily workflows and enhances overall operational efficiency.
+                </p>
+              </div>
+            </div>
+            {/* Guinee Embassy */}
+            <div className="row align-items-start mb-4">
+              <div className="col-md-3">
+                <img
+                  src="img/partners/guinee-embassy.png"
+                  alt="Guinee Embassy Logo"
+                  className="img-fluid"
+                  style={{ maxWidth: "150px" }}
+                />
+              </div>
+              <div className="col-md-9">
+                <h3 className="font-weight-bold">Guinee Embassy</h3>
+                <h6>
+                  <b>Address: </b> Kigali, Rwanda
+                </h6>
+                <p style={{ textAlign: "justify" }}>
+                  Our company successfully provided the Guinee Embassy with high-speed Starlink internet
+                  services. This reliable connectivity strengthens secure communications and supports
+                  day‑to‑day consular activities. The high-speed internet access enables timely coordination
+                  and efficient delivery of services for visitors and partners.
+                </p>
+              </div>
+            </div>
+            {/* LE BAMBOO GORILA LODGE */}
+            <div className="row align-items-start mb-4">
+              <div className="col-md-3">
+                <img
+                  src="img/partners/le-bamboo-gorila-lodge.png"
+                  alt="LE BAMBOO GORILA LODGE Logo"
+                  className="img-fluid"
+                  style={{ maxWidth: "150px" }}
+                />
+              </div>
+              <div className="col-md-9">
+                <h3 className="font-weight-bold">LE BAMBOO GORILA LODGE</h3>
+                <h6>
+                  <b>Address: </b> Rwanda
+                </h6>
+                <p style={{ textAlign: "justify" }}>
+                  Our company successfully provided LE BAMBOO GORILA LODGE with high-speed Starlink
+                  internet services. This reliable connectivity enhances guest experience, supports
+                  property management communications, and enables smooth daily operations across the lodge.
+                  The high-speed internet access ensures consistent service quality throughout the day.
+                </p>
+              </div>
+            </div>
+            {/* REPUB LOUNGE */}
+            <div className="row align-items-start mb-4">
+              <div className="col-md-3">
+                <img
+                  src="img/partners/repub-lounge.webp"
+                  alt="Repub Lounge Logo"
+                  className="img-fluid"
+                  style={{ maxWidth: "150px" }}
+                />
+              </div>
+              <div className="col-md-9">
+                <h3 className="font-weight-bold">REPUB LOUNGE</h3>
+                <h6>
+                  <b>Address: </b> Kigali, Rwanda
+                </h6>
+                <p style={{ textAlign: "justify" }}>
+                  Our company successfully provided REPUB LOUNGE with high-speed Starlink internet services.
+                  This reliable connectivity supports POS systems, team coordination, and guest Wi‑Fi,
+                  ensuring smooth daily operations. The high-speed internet access enhances customer
+                  experience and staff efficiency across the venue.
+                </p>
+              </div>
+            </div>
             <div className="row align-items-start mb-4">
               <h2 className="text-3xl font-bold text-center mb-8 py-4 text-primary">
                 Our Partners
@@ -1431,6 +1666,137 @@ function About() {
                       marginRight: "20px",
                       borderRadius: "0",
                       marginBottom: "10px",
+                    }}
+                  />
+                  {/* Newly added partners (provide logos in public/img/partners) */}
+                  <img
+                    src="img/partners/itm-africa.png"
+                    className="img-fluid"
+                    alt="ITM Africa"
+                    style={{
+                      width: "160px",
+                      height: "80px",
+                      marginRight: "20px",
+                      borderRadius: "0",
+                      marginBottom: "10px",
+                      objectFit: "contain",
+                    }}
+                  />
+                  <img
+                    src="img/partners/embassy-algeria.png"
+                    className="img-fluid"
+                    alt="Embassy of Algeria in Kigali"
+                    style={{
+                      width: "220px",
+                      height: "80px",
+                      marginRight: "20px",
+                      borderRadius: "0",
+                      marginBottom: "10px",
+                      objectFit: "contain",
+                    }}
+                  />
+                  <img
+                    src="img/partners/adhi-rwanda.png"
+                    className="img-fluid"
+                    alt="ADHI Rwanda"
+                    style={{
+                      width: "160px",
+                      height: "80px",
+                      marginRight: "20px",
+                      borderRadius: "0",
+                      marginBottom: "10px",
+                      objectFit: "contain",
+                    }}
+                  />
+                  <img
+                    src="img/partners/qatar-airways.png"
+                    className="img-fluid"
+                    alt="Qatar Airways"
+                    style={{
+                      width: "200px",
+                      height: "80px",
+                      marginRight: "20px",
+                      borderRadius: "0",
+                      marginBottom: "10px",
+                      objectFit: "contain",
+                    }}
+                  />
+                  <img
+                    src="img/partners/kesi-investment.png"
+                    className="img-fluid"
+                    alt="Kesi Investment Ltd"
+                    style={{
+                      width: "200px",
+                      height: "80px",
+                      marginRight: "20px",
+                      borderRadius: "0",
+                      marginBottom: "10px",
+                      objectFit: "contain",
+                    }}
+                  />
+                  <img
+                    src="img/partners/jali-investment.png"
+                    className="img-fluid"
+                    alt="Jali Investment"
+                    style={{
+                      width: "180px",
+                      height: "80px",
+                      marginRight: "20px",
+                      borderRadius: "0",
+                      marginBottom: "10px",
+                      objectFit: "contain",
+                    }}
+                  />
+                  <img
+                    src="img/partners/ritco.png"
+                    className="img-fluid"
+                    alt="Ritco"
+                    style={{
+                      width: "160px",
+                      height: "80px",
+                      marginRight: "20px",
+                      borderRadius: "0",
+                      marginBottom: "10px",
+                      objectFit: "contain",
+                    }}
+                  />
+                  <img
+                    src="img/partners/guinee-embassy.png"
+                    className="img-fluid"
+                    alt="Guinee Embassy"
+                    style={{
+                      width: "200px",
+                      height: "80px",
+                      marginRight: "20px",
+                      borderRadius: "0",
+                      marginBottom: "10px",
+                      objectFit: "contain",
+                    }}
+                  />
+                  <img
+                    src="img/partners/le-bamboo-gorila-lodge.png"
+                    className="img-fluid"
+                    alt="LE BAMBOO GORILA LODGE"
+                    style={{
+                      width: "240px",
+                      height: "80px",
+                      marginRight: "20px",
+                      borderRadius: "0",
+                      marginBottom: "10px",
+                      objectFit: "contain",
+                    }}
+                  />
+                  <img
+                    src="img/partners/repub-lounge.webp"
+                    className="img-fluid"
+                    alt="Repub Lounge"
+                    style={{
+                      width: "200px",
+                      height: "80px",
+                      marginRight: "20px",
+                      borderRadius: "0",
+                      marginBottom: "10px",
+                      objectFit: "contain",
                     }}
                   />
                 </Marquee>
